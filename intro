@@ -1,0 +1,50 @@
+package introduction;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+
+
+public class seleniumintro {
+
+	public static void main(String[] args) {
+		
+		//Invoking Browser
+		//Chrome-ChromeDriver ->Methods
+		
+		// 
+		// ChromeDriver driver=new ChromeDriver();
+	    System.setProperty("WebDriver.chrome.driver", "/Users/Anita/Documents/Drivers/chromedriver.exe");
+		//WebDriver driver= new ChromeDriver();
+		//driver.get("https://rahulshettyacademy.com/");
+		//System.out.println(driver.getTitle());
+		//System.out.println(driver.getCurrentUrl());
+		//driver.close(); //Closes the initialy opened window
+		//driver.quit(); //Closes all the window/tabs
+	
+		//Firefox browser launch
+	    //Uses gecko driver
+	    //System.setProperty("WebDriver.gecko.driver", "driver path");
+	    
+		//WebDriver driver= new FirefoxDriver();
+		//driver.get("https://rahulshettyacademy.com/");
+		//System.out.println(driver.getTitle());
+		//System.out.println(driver.getCurrentUrl());
+		//driver.close(); //Closes the initialy opened window
+		
+		//Edge browser launch
+	    //Uses edge driver
+	    //System.setProperty("WebDriver.edge.driver", "driver path");
+	    
+		//WebDriver driver= new EdgeDriver();
+		//driver.get("https://rahulshettyacademy.com/");
+		//System.out.println(driver.getTitle());
+		//System.out.println(driver.getCurrentUrl());
+		//driver.close(); //Closes the initialy opened window
+		
+	}
+
+}
